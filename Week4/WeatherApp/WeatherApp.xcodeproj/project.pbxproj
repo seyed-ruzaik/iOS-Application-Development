@@ -7,24 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9BDCBB26299612160073062E /* BMI_CalculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDCBB25299612160073062E /* BMI_CalculatorApp.swift */; };
-		9BDCBB28299612160073062E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDCBB27299612160073062E /* ContentView.swift */; };
-		9BDCBB2A299612170073062E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BDCBB29299612170073062E /* Assets.xcassets */; };
-		9BDCBB2D299612170073062E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BDCBB2C299612170073062E /* Preview Assets.xcassets */; };
-		9BDCBB3429963BDE0073062E /* BgColorSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDCBB3329963BDE0073062E /* BgColorSwiftUIView.swift */; };
+		9B101EBC299F2A6600662EFB /* WeatherAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B101EBB299F2A6600662EFB /* WeatherAppApp.swift */; };
+		9B101EBE299F2A6600662EFB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B101EBD299F2A6600662EFB /* ContentView.swift */; };
+		9B101EC0299F2A6700662EFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B101EBF299F2A6700662EFB /* Assets.xcassets */; };
+		9B101EC3299F2A6700662EFB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B101EC2299F2A6700662EFB /* Preview Assets.xcassets */; };
+		9B101ECA299F2D6D00662EFB /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B101EC9299F2D6D00662EFB /* HomeView.swift */; };
+		9B101ECC299F2DA000662EFB /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B101ECB299F2DA000662EFB /* SearchView.swift */; };
+		9B101ECE299F568400662EFB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B101ECD299F568400662EFB /* Constants.swift */; };
+		9B101ED0299F575900662EFB /* NetworkStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B101ECF299F575900662EFB /* NetworkStore.swift */; };
+		9B101ED2299F741700662EFB /* WeatherDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B101ED1299F741700662EFB /* WeatherDTO.swift */; };
+		9B101ED4299F796F00662EFB /* WeatherDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B101ED3299F796F00662EFB /* WeatherDataModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9BDCBB22299612160073062E /* BMI Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BMI Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9BDCBB25299612160073062E /* BMI_CalculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMI_CalculatorApp.swift; sourceTree = "<group>"; };
-		9BDCBB27299612160073062E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		9BDCBB29299612170073062E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9BDCBB2C299612170073062E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		9BDCBB3329963BDE0073062E /* BgColorSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BgColorSwiftUIView.swift; sourceTree = "<group>"; };
+		9B101EB8299F2A6600662EFB /* WeatherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B101EBB299F2A6600662EFB /* WeatherAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherAppApp.swift; sourceTree = "<group>"; };
+		9B101EBD299F2A6600662EFB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9B101EBF299F2A6700662EFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9B101EC2299F2A6700662EFB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9B101EC9299F2D6D00662EFB /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		9B101ECB299F2DA000662EFB /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		9B101ECD299F568400662EFB /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		9B101ECF299F575900662EFB /* NetworkStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkStore.swift; sourceTree = "<group>"; };
+		9B101ED1299F741700662EFB /* WeatherDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDTO.swift; sourceTree = "<group>"; };
+		9B101ED3299F796F00662EFB /* WeatherDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDataModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9BDCBB1F299612160073062E /* Frameworks */ = {
+		9B101EB5299F2A6600662EFB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -34,38 +44,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9BDCBB19299612150073062E = {
+		9B101EAF299F2A6600662EFB = {
 			isa = PBXGroup;
 			children = (
-				9BDCBB24299612160073062E /* BMI Calculator */,
-				9BDCBB23299612160073062E /* Products */,
+				9B101EBA299F2A6600662EFB /* WeatherApp */,
+				9B101EB9299F2A6600662EFB /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		9BDCBB23299612160073062E /* Products */ = {
+		9B101EB9299F2A6600662EFB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9BDCBB22299612160073062E /* BMI Calculator.app */,
+				9B101EB8299F2A6600662EFB /* WeatherApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9BDCBB24299612160073062E /* BMI Calculator */ = {
+		9B101EBA299F2A6600662EFB /* WeatherApp */ = {
 			isa = PBXGroup;
 			children = (
-				9BDCBB25299612160073062E /* BMI_CalculatorApp.swift */,
-				9BDCBB27299612160073062E /* ContentView.swift */,
-				9BDCBB29299612170073062E /* Assets.xcassets */,
-				9BDCBB2B299612170073062E /* Preview Content */,
-				9BDCBB3329963BDE0073062E /* BgColorSwiftUIView.swift */,
+				9B101EBB299F2A6600662EFB /* WeatherAppApp.swift */,
+				9B101EBD299F2A6600662EFB /* ContentView.swift */,
+				9B101EBF299F2A6700662EFB /* Assets.xcassets */,
+				9B101EC1299F2A6700662EFB /* Preview Content */,
+				9B101EC9299F2D6D00662EFB /* HomeView.swift */,
+				9B101ECB299F2DA000662EFB /* SearchView.swift */,
+				9B101ECD299F568400662EFB /* Constants.swift */,
+				9B101ECF299F575900662EFB /* NetworkStore.swift */,
+				9B101ED1299F741700662EFB /* WeatherDTO.swift */,
+				9B101ED3299F796F00662EFB /* WeatherDataModel.swift */,
 			);
-			path = "BMI Calculator";
+			path = WeatherApp;
 			sourceTree = "<group>";
 		};
-		9BDCBB2B299612170073062E /* Preview Content */ = {
+		9B101EC1299F2A6700662EFB /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				9BDCBB2C299612170073062E /* Preview Assets.xcassets */,
+				9B101EC2299F2A6700662EFB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -73,39 +88,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9BDCBB21299612160073062E /* BMI Calculator */ = {
+		9B101EB7299F2A6600662EFB /* WeatherApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9BDCBB30299612170073062E /* Build configuration list for PBXNativeTarget "BMI Calculator" */;
+			buildConfigurationList = 9B101EC6299F2A6700662EFB /* Build configuration list for PBXNativeTarget "WeatherApp" */;
 			buildPhases = (
-				9BDCBB1E299612160073062E /* Sources */,
-				9BDCBB1F299612160073062E /* Frameworks */,
-				9BDCBB20299612160073062E /* Resources */,
+				9B101EB4299F2A6600662EFB /* Sources */,
+				9B101EB5299F2A6600662EFB /* Frameworks */,
+				9B101EB6299F2A6600662EFB /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "BMI Calculator";
-			productName = "BMI Calculator";
-			productReference = 9BDCBB22299612160073062E /* BMI Calculator.app */;
+			name = WeatherApp;
+			productName = WeatherApp;
+			productReference = 9B101EB8299F2A6600662EFB /* WeatherApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		9BDCBB1A299612150073062E /* Project object */ = {
+		9B101EB0299F2A6600662EFB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
-					9BDCBB21299612160073062E = {
+					9B101EB7299F2A6600662EFB = {
 						CreatedOnToolsVersion = 14.2;
 					};
 				};
 			};
-			buildConfigurationList = 9BDCBB1D299612150073062E /* Build configuration list for PBXProject "BMI Calculator" */;
+			buildConfigurationList = 9B101EB3299F2A6600662EFB /* Build configuration list for PBXProject "WeatherApp" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -113,43 +128,48 @@
 				en,
 				Base,
 			);
-			mainGroup = 9BDCBB19299612150073062E;
-			productRefGroup = 9BDCBB23299612160073062E /* Products */;
+			mainGroup = 9B101EAF299F2A6600662EFB;
+			productRefGroup = 9B101EB9299F2A6600662EFB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9BDCBB21299612160073062E /* BMI Calculator */,
+				9B101EB7299F2A6600662EFB /* WeatherApp */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		9BDCBB20299612160073062E /* Resources */ = {
+		9B101EB6299F2A6600662EFB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BDCBB2D299612170073062E /* Preview Assets.xcassets in Resources */,
-				9BDCBB2A299612170073062E /* Assets.xcassets in Resources */,
+				9B101EC3299F2A6700662EFB /* Preview Assets.xcassets in Resources */,
+				9B101EC0299F2A6700662EFB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9BDCBB1E299612160073062E /* Sources */ = {
+		9B101EB4299F2A6600662EFB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BDCBB28299612160073062E /* ContentView.swift in Sources */,
-				9BDCBB3429963BDE0073062E /* BgColorSwiftUIView.swift in Sources */,
-				9BDCBB26299612160073062E /* BMI_CalculatorApp.swift in Sources */,
+				9B101ECE299F568400662EFB /* Constants.swift in Sources */,
+				9B101ECC299F2DA000662EFB /* SearchView.swift in Sources */,
+				9B101ED0299F575900662EFB /* NetworkStore.swift in Sources */,
+				9B101ECA299F2D6D00662EFB /* HomeView.swift in Sources */,
+				9B101ED4299F796F00662EFB /* WeatherDataModel.swift in Sources */,
+				9B101ED2299F741700662EFB /* WeatherDTO.swift in Sources */,
+				9B101EBE299F2A6600662EFB /* ContentView.swift in Sources */,
+				9B101EBC299F2A6600662EFB /* WeatherAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		9BDCBB2E299612170073062E /* Debug */ = {
+		9B101EC4299F2A6700662EFB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -209,7 +229,7 @@
 			};
 			name = Debug;
 		};
-		9BDCBB2F299612170073062E /* Release */ = {
+		9B101EC5299F2A6700662EFB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -263,14 +283,14 @@
 			};
 			name = Release;
 		};
-		9BDCBB31299612170073062E /* Debug */ = {
+		9B101EC7299F2A6700662EFB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"BMI Calculator/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"WeatherApp/Preview Content\"";
 				DEVELOPMENT_TEAM = D2Q22Z87G2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -284,7 +304,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.pubudumihiranga.BMI-Calculator";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pubudumihiranga.WeatherApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -292,14 +312,14 @@
 			};
 			name = Debug;
 		};
-		9BDCBB32299612170073062E /* Release */ = {
+		9B101EC8299F2A6700662EFB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"BMI Calculator/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"WeatherApp/Preview Content\"";
 				DEVELOPMENT_TEAM = D2Q22Z87G2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -313,7 +333,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.pubudumihiranga.BMI-Calculator";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pubudumihiranga.WeatherApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -324,25 +344,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9BDCBB1D299612150073062E /* Build configuration list for PBXProject "BMI Calculator" */ = {
+		9B101EB3299F2A6600662EFB /* Build configuration list for PBXProject "WeatherApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9BDCBB2E299612170073062E /* Debug */,
-				9BDCBB2F299612170073062E /* Release */,
+				9B101EC4299F2A6700662EFB /* Debug */,
+				9B101EC5299F2A6700662EFB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9BDCBB30299612170073062E /* Build configuration list for PBXNativeTarget "BMI Calculator" */ = {
+		9B101EC6299F2A6700662EFB /* Build configuration list for PBXNativeTarget "WeatherApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9BDCBB31299612170073062E /* Debug */,
-				9BDCBB32299612170073062E /* Release */,
+				9B101EC7299F2A6700662EFB /* Debug */,
+				9B101EC8299F2A6700662EFB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 9BDCBB1A299612150073062E /* Project object */;
+	rootObject = 9B101EB0299F2A6600662EFB /* Project object */;
 }
