@@ -25,6 +25,9 @@ struct HomeView: View {
                 
                 Text("\(weatherData.description)")
                     .font(.title)
+            } else {
+                ProgressView()
+                    .progressViewStyle(CircularProgressViewStyle())
             }
         }
         .task {

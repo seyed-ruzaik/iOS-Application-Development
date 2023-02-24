@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct SearchView: View {
+    
+    @StateObject var networkStore = NetworkStore()
     @State var cityName: String = ""
     
     var body: some View {
@@ -22,35 +24,43 @@ struct SearchView: View {
                         .textFieldStyle(.roundedBorder)
                     
                     Button {
-                        // button action
+                        guard !cityName.isEmpty else { return }
+                        
+                        print("dev test fetching data")
+                        
+                        Task {
+                            await networkStore.fetchData(cityName: cityName)
+                        }
                     } label: {
                         Text("Search")
                     }
 
                 }
                 
-                HStack {
-                    WeatherConditionView(image: "aqi.low", title: "Broken Clouds", subtile: "Current Status")
+                if let data = networkStore.weatherData {
+                    HStack {
+                        WeatherConditionView(image: "aqi.low", title: "\(data.description)", subtile: "Current Status")
+                        
+                        WeatherConditionView(image: "thermometer.low", title: "\(data.formattedTemp)", subtile: "Temperature")
+                    }
                     
-                    WeatherConditionView(image: "thermometer.low", title: "26.5", subtile: "Temperature")
-                }
-                
-                HStack {
-                    WeatherConditionView(image: "humidity", title: "65.0", subtile: "Humidity")
+                    HStack {
+                        WeatherConditionView(image: "humidity", title: "\(data.humidity)", subtile: "Humidity")
+                        
+                        WeatherConditionView(image: "tornado", title: "\(data.pressure)", subtile: "Pressure")
+                    }
                     
-                    WeatherConditionView(image: "tornado", title: "1026.5", subtile: "Pressure")
-                }
-                
-                HStack {
-                    WeatherConditionView(image: "sun.dust.fill", title: "1000.0", subtile: "Visibility")
+                    HStack {
+                        WeatherConditionView(image: "sun.dust.fill", title: "\(data.visibility)", subtile: "Visibility")
+                        
+                        WeatherConditionView(image: "wind", title: "\(data.windSpeed)", subtile: "Wind Speed")
+                    }
                     
-                    WeatherConditionView(image: "wind", title: "26.5", subtile: "Wind Speed")
-                }
-                
-                HStack {
-                    WeatherConditionView(image: "cloud.fill", title: "26.5", subtile: "Clouds (%)")
-                    
-                    Spacer()
+                    HStack {
+                        WeatherConditionView(image: "cloud.fill", title: "\(data.cloudPrecentage)", subtile: "Clouds (%)")
+                        
+                        Spacer()
+                    }
                 }
             }
             .padding()
