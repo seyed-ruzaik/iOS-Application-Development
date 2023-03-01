@@ -9,12 +9,12 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @State private var firstTerm = ""
-    @State private var secondTerm = ""
-    @State private var thirdTerm = ""
+    @AppStorage("firstTerm") private var firstTerm = ""
+    @AppStorage("secondTerm") private var secondTerm = ""
+    @AppStorage("thirdTerm") private var thirdTerm = ""
     
-    @State private var x1 = ""
-    @State private var x2 = ""
+    @AppStorage("x1") private var x1 = ""
+    @AppStorage("x2") private var x2 = ""
     
     var body: some View {
         ScrollView {
@@ -66,8 +66,6 @@ struct ContentView: View {
         guard let firstTerm = Double(firstTerm),
                 let secondTerm = Double(secondTerm),
                 let thridTerm = Double(thirdTerm) else { return }
-        
-        // https://stackoverflow.com/questions/35395111/quadratic-formula-in-swift
         
         let bSquared = secondTerm * secondTerm
         let discriminant = bSquared - (4 * firstTerm * thridTerm)
