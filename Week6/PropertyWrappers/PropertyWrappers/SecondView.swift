@@ -9,15 +9,25 @@ import SwiftUI
 
 struct SecondView: View {
     
+//    @StateObject var fruitViewModel: FruitViewModel
     var fruitName: String = ""
     
     var body: some View {
-        Text("\(fruitName)")
+        NavigationStack {
+            NavigationLink {
+//                ThirdView(fruitViewModel: fruitViewModel)
+                ThirdView()
+            } label: {
+                Text("\(fruitName)")
+            }
+            .navigationTitle("Selected Fruit")
+        }
     }
 }
 
 struct SecondView_Previews: PreviewProvider {
     static var previews: some View {
+//        SecondView(fruitViewModel: FruitViewModel())
         SecondView()
     }
 }

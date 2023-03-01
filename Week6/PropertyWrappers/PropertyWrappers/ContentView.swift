@@ -46,14 +46,15 @@ class FruitViewModel: ObservableObject {
 
 struct ContentView: View {
     
-//    @ObservedObject var fruitViewModel: FruitViewModel = FruitViewModel()
-    @StateObject var fruitViewModel: FruitViewModel = FruitViewModel()
+    @ObservedObject var fruitViewModel: FruitViewModel = FruitViewModel()
+//    @StateObject var fruitViewModel: FruitViewModel = FruitViewModel()
     
     var body: some View {
         NavigationStack {
             List {
                 ForEach(fruitViewModel.fruits) { fruit in
                     NavigationLink {
+//                        SecondView(fruitViewModel: fruitViewModel, fruitName: fruit.name)
                         SecondView(fruitName: fruit.name)
                     } label: {
                         HStack {
@@ -82,6 +83,7 @@ struct ContentView: View {
                 }
             }
         }
+        .environmentObject(fruitViewModel)
     }
 }
 
