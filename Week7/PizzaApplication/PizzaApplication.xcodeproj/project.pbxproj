@@ -14,6 +14,9 @@
 		9B26A0E329AF27FD005C5EE0 /* PizzaList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B26A0E229AF27FD005C5EE0 /* PizzaList.swift */; };
 		9B26A0E529AF281C005C5EE0 /* FavouritePizzaList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B26A0E429AF281C005C5EE0 /* FavouritePizzaList.swift */; };
 		9B26A0E729AF2A42005C5EE0 /* AddNewPizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B26A0E629AF2A42005C5EE0 /* AddNewPizza.swift */; };
+		9B60BCF229BADACF00403D37 /* PizzaDataContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9B60BCF029BADACF00403D37 /* PizzaDataContainer.xcdatamodeld */; };
+		9B60BCF429BADCBD00403D37 /* PizzaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B60BCF329BADCBD00403D37 /* PizzaViewModel.swift */; };
+		9B60BCF629BB079800403D37 /* SinglePizzaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B60BCF529BB079800403D37 /* SinglePizzaView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +28,9 @@
 		9B26A0E229AF27FD005C5EE0 /* PizzaList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaList.swift; sourceTree = "<group>"; };
 		9B26A0E429AF281C005C5EE0 /* FavouritePizzaList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritePizzaList.swift; sourceTree = "<group>"; };
 		9B26A0E629AF2A42005C5EE0 /* AddNewPizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewPizza.swift; sourceTree = "<group>"; };
+		9B60BCF129BADACF00403D37 /* PizzaDataContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PizzaDataContainer.xcdatamodel; sourceTree = "<group>"; };
+		9B60BCF329BADCBD00403D37 /* PizzaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaViewModel.swift; sourceTree = "<group>"; };
+		9B60BCF529BB079800403D37 /* SinglePizzaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SinglePizzaView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +70,9 @@
 				9B26A0E229AF27FD005C5EE0 /* PizzaList.swift */,
 				9B26A0E429AF281C005C5EE0 /* FavouritePizzaList.swift */,
 				9B26A0E629AF2A42005C5EE0 /* AddNewPizza.swift */,
+				9B60BCF029BADACF00403D37 /* PizzaDataContainer.xcdatamodeld */,
+				9B60BCF329BADCBD00403D37 /* PizzaViewModel.swift */,
+				9B60BCF529BB079800403D37 /* SinglePizzaView.swift */,
 			);
 			path = PizzaApplication;
 			sourceTree = "<group>";
@@ -148,6 +157,9 @@
 			files = (
 				9B26A0E329AF27FD005C5EE0 /* PizzaList.swift in Sources */,
 				9B26A0D729AF27C4005C5EE0 /* ContentView.swift in Sources */,
+				9B60BCF229BADACF00403D37 /* PizzaDataContainer.xcdatamodeld in Sources */,
+				9B60BCF629BB079800403D37 /* SinglePizzaView.swift in Sources */,
+				9B60BCF429BADCBD00403D37 /* PizzaViewModel.swift in Sources */,
 				9B26A0E529AF281C005C5EE0 /* FavouritePizzaList.swift in Sources */,
 				9B26A0D529AF27C4005C5EE0 /* PizzaApplicationApp.swift in Sources */,
 				9B26A0E729AF2A42005C5EE0 /* AddNewPizza.swift in Sources */,
@@ -351,6 +363,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9B60BCF029BADACF00403D37 /* PizzaDataContainer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9B60BCF129BADACF00403D37 /* PizzaDataContainer.xcdatamodel */,
+			);
+			currentVersion = 9B60BCF129BADACF00403D37 /* PizzaDataContainer.xcdatamodel */;
+			path = PizzaDataContainer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 9B26A0C929AF27C4005C5EE0 /* Project object */;
 }
