@@ -2,7 +2,7 @@
 //  WeatherDataModel.swift
 //  WeatherApp
 //
-//  Created by Pubudu Mihiranga on 2023-02-17.
+//  Created by Seyed Ruzaik on 2023-02-17.
 //
 
 import Foundation

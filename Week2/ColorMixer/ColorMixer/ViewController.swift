@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  ColorMixer
 //
-//  Created by Pubudu Mihiranga on 2023-02-03.
+//  Created by Seyed Ruzaik on 2023-02-03.
 //
 
 import UIKit

@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  HelloWorld
 //
-//  Created by Pubudu Mihiranga on 2023-01-27.
+//  Created by Seyed Ruzaik on 2023-01-27.
 //
 
 import UIKit

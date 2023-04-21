@@ -2,7 +2,7 @@
 //  BMI_CalculatorApp.swift
 //  BMI Calculator
 //
-//  Created by Pubudu Mihiranga on 2023-02-10.
+//  Created by Seyed Ruzaik on 2023-02-10.
 //
 
 import SwiftUI

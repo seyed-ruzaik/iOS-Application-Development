@@ -2,7 +2,7 @@
 //  HistoryView.swift
 //  RightTriangleProblemSolver
 //
-//  Created by Pubudu Mihiranga on 2023-03-17.
+//  Created by Seyed Ruzaik on 2023-03-17.
 //
 
 import SwiftUI
